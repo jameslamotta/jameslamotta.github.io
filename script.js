@@ -2,7 +2,8 @@
 // installation or the initialization of the dataLayer variable.
 
 // Not required if the Google Analytics gtag implementation is used.
-function gtag() {dataLayer.push(arguments)}
+window.dataLayer = window.dataLayer || [];
+function gtag() {dataLayer.push(arguments);}
 
 function implementExperimentA(value) {
   if (value ==  '0') {
