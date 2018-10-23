@@ -21,13 +21,13 @@ function implementExperimentTheme(value) {
   if (value ==  '0') {
     // Same theme as original
   } else if (value == '1') {
-    document.getElementById("logo").src="logo.jpg";
-    document.getElementById("image1").src="selva1.jpg";
-    document.getElementById("image2").src="selva2.jpg";
+    document.getElementById("logo").src="images/logo.jpg";
+    document.getElementById("image1").src="images/lselva1.jpg";
+    document.getElementById("image2").src="images/lselva2.jpg";
   } else if (value == '2') {
-    document.getElementById("logo").src="logo.jpg";
-    document.getElementById("image1").src="selva1.jpg";
-    document.getElementById("image2").src="selva2.jpg";
+    document.getElementById("logo").src="images/llogo.jpg";
+    document.getElementById("image1").src="images/lselva1.jpg";
+    document.getElementById("image2").src="images/lselva2.jpg";
   }
 }
 
