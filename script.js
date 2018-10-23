@@ -22,12 +22,12 @@ function implementExperimentTheme(value) {
     // Same theme as original
   } else if (value == '1') {
     document.getElementById("logo").src="images/logo.jpg";
-    document.getElementById("image1").src="images/lselva1.jpg";
-    document.getElementById("image2").src="images/lselva2.jpg";
+    document.getElementById("image1").src="images/selva1.jpg";
+    document.getElementById("image2").src="images/selva2.jpg";
   } else if (value == '2') {
-    document.getElementById("logo").src="images/llogo.jpg";
-    document.getElementById("image1").src="images/lselva1.jpg";
-    document.getElementById("image2").src="images/lselva2.jpg";
+    document.getElementById("logo").src="images/logo.jpg";
+    document.getElementById("image1").src="images/selva1.jpg";
+    document.getElementById("image2").src="images/selva2.jpg";
   }
 }
 
