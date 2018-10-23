@@ -8,6 +8,9 @@ function gtag() {dataLayer.push(arguments);}
 
 
 function implementExperimentCopy(value) {
+
+  implementExperimentTheme(value);
+
   if (value ==  '0') {
     document.getElementById("section2").innerHTML = "(Original) Jaime Perujo testing site";
   } else if (value == '1') {
@@ -15,19 +18,25 @@ function implementExperimentCopy(value) {
   } else if (value == '2') {
     document.getElementById("section2").innerHTML = "Copy 2: This is a test, it will be self-destroyed in 3,2,1...";
   }
+
 }
 
 function implementExperimentTheme(value) {
   if (value ==  '0') {
     // Same theme as original
+    console.log("entrando en Theme 0")
   } else if (value == '1') {
     document.getElementById("logo").src="images/logo.jpg";
     document.getElementById("image1").src="images/selva1.jpg";
     document.getElementById("image2").src="images/selva2.jpg";
+    console.log("entrando en Theme 1")
+
   } else if (value == '2') {
     document.getElementById("logo").src="images/logo.jpg";
     document.getElementById("image1").src="images/selva1.jpg";
     document.getElementById("image2").src="images/selva2.jpg";
+    console.log("entrando en Theme 2")
+
   }
 }
 
@@ -36,5 +45,5 @@ function implementExperimentTheme(value) {
 
 gtag('event', 'optimize.callback', {
     name: 'NRLruprYTsCigOEgkwVGqA',
-    callback: implementExperimentCopy, implementExperimentTheme,
+    callback: implementExperimentCopy,
  });
