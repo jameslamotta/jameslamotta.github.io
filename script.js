@@ -36,5 +36,5 @@ function implementExperimentTheme(value) {
 
 gtag('event', 'optimize.callback', {
     name: 'NRLruprYTsCigOEgkwVGqA',
-    callback: implementExperimentCopy, implementExperimentTheme
+    callback: implementExperimentCopy, implementExperimentTheme,
  });
