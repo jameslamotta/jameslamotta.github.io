@@ -5,6 +5,8 @@
 window.dataLayer = window.dataLayer || [];
 function gtag() {dataLayer.push(arguments);}
 
+
+
 function implementExperimentCopy(value) {
   if (value ==  '0') {
     document.getElementById("section2").innerHTML = "(Original) Jaime Perujo testing site";
@@ -15,7 +17,24 @@ function implementExperimentCopy(value) {
   }
 }
 
+function implementExperimentTheme(value) {
+  if (value ==  '0') {
+    // Same theme as original
+  } else if (value == '1') {
+    document.getElementById("logo").src="logo.jpg";
+    document.getElementById("image1").src="selva1.jpg";
+    document.getElementById("image2").src="selva2.jpg";
+  } else if (value == '2') {
+    document.getElementById("logo").src="logo.jpg";
+    document.getElementById("image1").src="selva1.jpg";
+    document.getElementById("image2").src="selva2.jpg";
+  }
+}
+
+
+
+
 gtag('event', 'optimize.callback', {
     name: 'NRLruprYTsCigOEgkwVGqA',
-    callback: implementExperimentCopy
+    callback: implementExperimentCopy, implementExperimentTheme
  });
