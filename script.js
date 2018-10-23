@@ -26,13 +26,13 @@ function implementExperimentTheme(value) {
     // Same theme as original
     console.log("entrando en Theme 0")
   } else if (value == '1') {
-    document.getElementById("logo").src="images/logo.jpg";
+    document.getElementById("logoimg").src="images/logo.jpg";
     document.getElementById("image1").src="images/selva1.jpg";
     document.getElementById("image2").src="images/selva2.jpg";
     console.log("entrando en Theme 1")
 
   } else if (value == '2') {
-    document.getElementById("logo").src="images/logo.jpg";
+    document.getElementById("logoimg").src="images/logo.jpg";
     document.getElementById("image1").src="images/selva1.jpg";
     document.getElementById("image2").src="images/selva2.jpg";
     console.log("entrando en Theme 2")
