@@ -8,7 +8,7 @@ function gtag() {dataLayer.push(arguments);}
 
 
 function implementExperimentCopy(value) {
-
+implementExperimentTheme(value);
   if (value ==  '0') {
     document.getElementById("section2").innerHTML = "(Original) Jaime Perujo testing site";
   } else if (value == '1') {
@@ -20,7 +20,7 @@ function implementExperimentCopy(value) {
 }
 
 //  implementExperimentTheme(value);
-/*
+
 
 function implementExperimentTheme(value) {
   if (value ==  '0') {
@@ -40,7 +40,7 @@ function implementExperimentTheme(value) {
 
   }
 }
-*/
+
 
 gtag('event', 'optimize.callback', {
     name: 'NRLruprYTsCigOEgkwVGqA',
