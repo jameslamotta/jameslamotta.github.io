@@ -8,7 +8,7 @@ function gtag() {dataLayer.push(arguments);}
 
 
 function implementExperimentCopy(value) {
- implementExperimentTheme(value);
+//implementExperimentTheme(value);
   if (value ==  '0') {
     document.getElementById("section2").innerHTML = "(Original) Jaime Perujo testing site";
   } else if (value == '1') {
