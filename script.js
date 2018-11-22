@@ -6,7 +6,7 @@ window.dataLayer = window.dataLayer || [];
 function gtag() {dataLayer.push(arguments);}
 
 
-/*
+
 
 function implementExperimentCopy(value) {
  implementExperimentTheme(value);
@@ -40,7 +40,7 @@ function implementExperimentTheme(value) {
 }
 
 
-*/
+
 
 gtag('event', 'optimize.callback', {
     name: 'NRLruprYTsCigOEgkwVGqA',
